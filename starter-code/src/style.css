@@ -1,0 +1,20 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.topImage{
+     background-image: url('/images/react-logo.svg');
+}
+
+.top {
+     height: 50vh;
+     background-color: #1f2535;
+}
+
+.top h2 {
+     color: white;
+}
+
+.top p {
+     color: white;
+}
