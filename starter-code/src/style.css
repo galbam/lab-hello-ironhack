@@ -1,20 +1,58 @@
-body {
-     font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  font-family: Arial;
 }
+
+.intro {
+ background-color: rgb(31, 37, 52);
+ height: 80vh;
+ color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.intro-text{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ padding: 20px 200px 20px 100px;
+ height: 40vh;
+ width: 20%;
+
+}
+
+
+button {
+  background-color: white;
+  color: rgb(31, 37, 52);
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2rem;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  width: 13%;
+  text-align: center;
+} 
 
 .topImage{
      background-image: url('/images/react-logo.svg');
-}
-
-.top {
-     height: 50vh;
-     background-color: #1f2535;
-}
-
-.top h2 {
-     color: white;
-}
-
-.top p {
-     color: white;
 }
